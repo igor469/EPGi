@@ -1,0 +1,52 @@
+2025-08-14 09:45:57: EPGi program started.
+2025-08-14 09:45:58: An unhandled exception occurred: nocbreak() returned ERR
+Traceback (most recent call last):
+  File "/home/jules/.pyenv/versions/3.12.11/lib/python3.12/curses/__init__.py", line 78, in wrapper
+    cbreak()
+_curses.error: cbreak() returned ERR
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/EPGi.py", line 117, in <module>
+    curses.wrapper(main)
+  File "/home/jules/.pyenv/versions/3.12.11/lib/python3.12/curses/__init__.py", line 100, in wrapper
+    nocbreak()
+_curses.error: nocbreak() returned ERR
+2025-08-14 09:45:58: EPGi program finished.
+2025-08-14 09:46:21: EPGi program started.
+2025-08-14 09:46:21: An unhandled exception occurred: nocbreak() returned ERR
+Traceback (most recent call last):
+  File "/home/jules/.pyenv/versions/3.12.11/lib/python3.12/curses/__init__.py", line 78, in wrapper
+    cbreak()
+_curses.error: cbreak() returned ERR
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/app/EPGi.py", line 117, in <module>
+    curses.wrapper(main)
+  File "/home/jules/.pyenv/versions/3.12.11/lib/python3.12/curses/__init__.py", line 100, in wrapper
+    nocbreak()
+_curses.error: nocbreak() returned ERR
+2025-08-14 09:46:21: EPGi program finished.
+2025-08-14 09:47:00: EPGi program started in config test mode.
+2025-08-14 09:47:00: Configuration parsed successfully.
+2025-08-14 09:47:00: EPGi program finished config test mode.
+2025-08-14 09:48:17: EPGi program started in fetch test mode.
+2025-08-14 09:48:17: Fetching and parsing new data from http://epg.one/epg.xml.gz
+2025-08-14 09:49:28: Successfully parsed 3254 channels from http://epg.one/epg.xml.gz
+2025-08-14 09:49:28: EPGi program finished fetch test mode.
+2025-08-14 09:49:50: EPGi program started in fetch test mode.
+2025-08-14 09:49:50: Fetching and parsing new data from http://epg.one/epg.xml.gz
+2025-08-14 09:50:32: Successfully parsed 3254 channels from http://epg.one/epg.xml.gz
+2025-08-14 09:50:33: Returning cached channel data for http://epg.one/epg.xml.gz
+2025-08-14 09:50:33: EPGi program finished fetch test mode.
+2025-08-14 09:55:31: EPGi program started in config test mode.
+2025-08-14 09:55:31: Configuration parsed successfully.
+2025-08-14 09:55:31: EPGi program finished config test mode.
+2025-08-14 09:55:46: EPGi program started in fetch test mode.
+2025-08-14 09:55:46: Fetching and parsing new data from http://epg.one/epg.xml.gz
+2025-08-14 09:56:49: Successfully parsed 3254 channels from http://epg.one/epg.xml.gz
+2025-08-14 09:56:49: Returning cached channel data for http://epg.one/epg.xml.gz
+2025-08-14 09:56:49: EPGi program finished fetch test mode.
